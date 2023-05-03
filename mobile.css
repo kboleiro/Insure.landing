@@ -1,0 +1,108 @@
+/* mobile */
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header, main, footer {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+ 
+/*main*/
+
+#burguer {
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+#seguro {
+    background-color:var(--cor01);
+    width: 153%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+#vieww2 {
+    background-color: var(--cor05);
+    color: white;
+    border-color: var(--cor05);
+    box-shadow: none;
+    border-radius: 60px;
+    font-size: 35px;
+    margin-top: 85px;
+}
+p {
+    color: #9793a0;
+    width: 508px;
+    font-family: serif;
+    font-size: 2.2rem;
+    margin-top: 33px;
+}
+img#principal {
+    float: left;
+    transform: scale(1.3) translate(29%, -12%);
+}
+
+/*we're different */
+#secdiferencial {
+    padding-left: 109px;
+    padding-right: 108px;
+    padding-bottom: 108px;
+    margin-bottom: 111px;
+    padding-top: 0px;
+}
+#icones {
+    display: flex;
+    align-items: center;
+}
+#icones h4 {
+    font-size: 3rem;
+}
+/*Find out more...(fundo roxo) */
+#hello {   
+    color: var(--cor02);
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding: -0.9rem 0rem;
+    margin-top: -18rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 270px;
+    text-align: left;
+}
+#hello h2 {
+    font-size: 2.6rem;
+    padding-top: 11px;
+    padding-left: 24px;
+}
+#work {
+    text-align: center;
+    height: 45px;
+    width: 202px;
+    font-family: serif;
+    background-color: var(--cor05);
+    border: 2px solid var(--cor05);
+    color: var(--cor04);
+    font-size: 15px;
+    margin-top: 80px;
+    top: 69%;
+    left: 60%;
+    position: relative;
+    transform: translate(-84%, -166%);
+    z-index: 4;
+    border-radius: 81px;
+    font-weight: bolder; }
+/*footer */
+#foo {
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+    margin-top: 30px;
+    margin-right: 41px;
+    margin-left: 20px; }

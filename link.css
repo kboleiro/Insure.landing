@@ -1,0 +1,254 @@
+@font-face {
+    font-family: DM;
+    src: url(fontes/DMSerifDisplay-Regular.ttf);
+}
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --cor01: #2D2640;
+    --cor02: #ffffff;
+    --cor03: #9793a0;
+    --cor04: #191919;
+    --cor05: rgb(255, 255, 32);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+#burguer {
+    display: none;
+}
+header nav {
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+header li {
+    margin: 0 15px;
+    list-style: none;
+    font-family: 'DM', serif;
+}
+header a {
+    text-decoration: none;
+    color: var(--cor03);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#vieww {
+    background-color: var(--cor05);
+    color: white;
+    height: 40px;
+    border-color: var(--cor05);
+    box-shadow: none;
+    border-radius: 28px;
+}
+#vieww2 {
+    background-color: var(--cor05);
+    color: white;
+    height: 40px;
+    border-color: var(--cor05);
+    box-shadow: none;
+    border-radius: 28px;
+}
+#vieww li a {
+    color: rgb(0, 0, 0)
+}
+
+
+
+/* main */
+
+#imagem {
+  
+    background: url(./images/image-intro-desktop.jpg) no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 70%;
+    position: relative;
+    top: 6.5rem;
+    left:0.5rem;
+}
+#esquerda  {
+    position: absolute;
+    background-size: contain;
+    height: 77vh;
+    width: 15vw;
+    bottom: -27rem;
+    left: 0;
+}
+
+    
+#seguro {
+    background-color:var(--cor01);
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#humanizando {
+    padding: 4.5rem 1.5rem;
+    margin: 21px 82px;
+}
+#pessoas {
+    z-index: 1;
+    float: right;
+}
+
+#secdiferencial {
+    padding: 109px;
+    margin-bottom: 111px;
+
+}
+hr {
+    width: 160px;
+    height: 5px solid;
+    margin-bottom: 30px;
+}
+#margem {
+    margin-top: 270px;
+}
+#work {
+    text-align: center;
+    height: 70px;
+    font-family: serif;
+    background-color: var(--cor05);
+    border: 2px solid var(--cor05);
+    color: var(--cor04);
+    font-size: 28px;
+    margin-top: 80px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-84%, -166%);
+    z-index: 4;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+h1 {
+    color: white;
+    font-size: 4.4rem;
+    letter-spacing: 2px;
+    font-family:'DM', serif
+}
+p {
+    color: var(--cor02);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    width: 510px;
+    font-family: serif, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h3  {
+    color: #2D2640;
+    font-size: 3.2rem
+}   
+h4 {
+    color: #191919;
+    font-size: 1.7rem;
+    font-family: 'DM';
+}
+p {
+    color: #9793a0;
+    width: 350px;
+    font-family: serif Arial, Helvetica, sans-serif
+}
+.card {
+    width: 350px;
+    height: 334px;
+}
+a#plans {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   color: bolder;
+   font-weight: bolder;
+}
+#Diferencial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 130px;
+    margin-top: 100px;
+}
+#hello {
+    color: var(--cor02);
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: space-around;
+    width: 73vw;
+    padding: 0.1rem 4rem;
+    margin-top: -18rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 270px;
+    text-align: left;
+
+}
+#hello h2 {
+    font-size: 3.3rem;
+    padding-top: 56px;
+}
+/* FOOTER */
+footer {
+    height: 400px;
+    margin-top: 264px;
+}
+ion-icon {
+    color: var(--cor04);
+}
+
+#foo {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 134px;
+    margin-left: 134px;
+}
+li {
+    margin-top: 10px;
+    list-style: none;
+    line-height: 1.5;
+}
+#seta {
+    width: 1100px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+#rede-social{
+    float: right;
+    font-size: 2em;
+    color: var(--cor03);
+}
+#footer1 {
+    margin-bottom: 20px;
+    padding: 18px 137px;
+}
+#direita {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 30vw;
+}
+#meio {
+    position: relative;
+    z-index: 1;
+}
+
